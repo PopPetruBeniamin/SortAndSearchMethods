@@ -1,0 +1,2 @@
+class MasinaException(Exception):
+    pass

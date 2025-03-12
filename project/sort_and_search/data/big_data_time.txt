@@ -1,0 +1,16 @@
+Time Complexity for Bubble Sort (n^2) and Quick Sort (n * log(n))
+
+n         Bubble Sort         Quick Sort          Difference
+10            0.00003s            0.00002s          x1 faster
+50            0.00029s            0.00008s          x3 faster
+100            0.00112s            0.00019s          x6 faster
+250            0.00826s            0.00055s          x15 faster
+500            0.03046s            0.00127s          x23 faster
+1000            0.12747s            0.00338s          x37 faster
+2500            0.81652s            0.00917s          x89 faster
+5000            3.57509s            0.02485s          x143 faster
+10000            16.91061s            0.05043s          x335 faster
+25000            155.12087s            0.20055s          x773 faster
+50000            656.71689s            0.37131s          x1768 faster
+
+Code run time: 14 minutes
